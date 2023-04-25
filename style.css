@@ -23,11 +23,15 @@ img {
   width: 100px;
   margin-top: 10px;
 }
+#root {
+  border: 1px solid black;
+  background-color: red;
+}
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
+
   margin: 5em auto;
   background-color: bisque;
 }
