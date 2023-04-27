@@ -17,6 +17,6 @@ async function fetchQuote() {
 fetchQuote()
   .then(
     (data) =>
-      (document.body.innerHTML = `<img src="quotation.png" /><h1>${data[0].author}</h1><p>${data[0].content}</p> <button id=btn onclick="location.reload()">generate`)
+      (document.body.innerHTML = `<i class="fa-sharp fa-solid fa-quote-left"></i><h1>${data[0].author}</h1><p>${data[0].content}</p> <button id=btn onclick="location.reload()">generate`)
   )
   .catch((error) => console.error(error));
